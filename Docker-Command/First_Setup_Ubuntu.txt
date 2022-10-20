@@ -1,0 +1,10 @@
+apt update
+sudo apt install vim -y
+
+//then change source.list to mirrors
+
+sudo apt install sudo net-tools nfs-server git openssh-server -y
+
+sshd_config:
+PermitRootLogin yes
+Port 22
