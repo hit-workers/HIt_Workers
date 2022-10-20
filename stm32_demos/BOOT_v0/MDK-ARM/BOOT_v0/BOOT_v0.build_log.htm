@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a b, c, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.37.0.0
+Toolchain Path:  D:\ProSoftware\STM32\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.18
+Assembler:       Armasm.exe V6.18
+Linker/Locator:  ArmLink.exe V6.18
+Library Manager: ArmAr.exe V6.18
+Hex Converter:   FromElf.exe V6.18
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      Segger\JL2CM3.dll V2.99.42.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+F:\stm32_workdir\HIt_Workers\stm32_demos\BOOT_v0\MDK-ARM\BOOT_v0.uvprojx
+Project File Date:  10/17/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.18', folder: 'D:\ProSoftware\STM32\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'BOOT_v0'
+compiling stm32h7xx_it.c...
+compiling main.c...
+compiling gpio.c...
+assembling startup_stm32h750xx.s...
+compiling stm32h7xx_hal_msp.c...
+compiling stm32h7xx_hal_gpio.c...
+compiling stm32h7xx_hal_cortex.c...
+compiling stm32h7xx_hal_flash.c...
+compiling stm32h7xx_hal_flash_ex.c...
+compiling stm32h7xx_hal_rcc.c...
+compiling stm32h7xx_hal_rcc_ex.c...
+compiling stm32h7xx_hal_hsem.c...
+compiling stm32h7xx_hal_pwr.c...
+compiling stm32h7xx_hal_dma_ex.c...
+compiling stm32h7xx_hal_i2c_ex.c...
+compiling stm32h7xx_hal.c...
+compiling stm32h7xx_hal_pwr_ex.c...
+compiling stm32h7xx_hal_exti.c...
+compiling stm32h7xx_hal_tim.c...
+compiling stm32h7xx_hal_mdma.c...
+compiling stm32h7xx_hal_tim_ex.c...
+compiling stm32h7xx_hal_dma.c...
+compiling retarget_io.c...
+compiling system_stm32h7xx.c...
+compiling EventRecorder.c...
+compiling stm32h7xx_hal_i2c.c...
+linking...
+Program Size: Code=9252 RO-data=764 RW-data=20 ZI-data=5368  
+FromELF: creating hex file...
+After Build - User command #1: F:\stm32_workdir\HIt_Workers\stm32_demos\BOOT_v0\PrintMAP.exe
+F:\stm32_workdir\HIt_Workers\stm32_demos\BOOT_v0
+BOOT_v0
+F:\stm32_workdir\HIt_Workers\stm32_demos\BOOT_v0\MDK-ARM\BOOT_v0\BOOT_v0.map
+    Total RO  Size (Code + RO Data)                10016 (   9.78kB)
+    Total RW  Size (RW Data + ZI Data)              5388 (   5.26kB)
+    Total ROM Size (Code + RO Data + RW Data)      10036 (   9.80kB)
+"BOOT_v0\BOOT_v0.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.ARM_Compiler.1.7.2.pack
+                Keil.ARM_Compiler.1.7.2
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: Event Recorder Variant: DAP Version: 1.5.1
+   * Component: STDOUT Variant: EVR Version: 1.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32H7xx_DFP.3.0.0.pack
+                Keil.STM32H7xx_DFP.3.0.0
+                STMicroelectronics STM32H7 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Compiler
+  ./RTE/_BOOT_v0
+  D:/ProSoftware/STM32/Keil_v5/ARM/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/ProSoftware/STM32/Keil_v5/ARM/Packs/Keil/ARM_Compiler/1.7.2/Include
+  D:/ProSoftware/STM32/Keil_v5/ARM/Packs/Keil/STM32H7xx_DFP/3.0.0/Drivers/CMSIS/Device/ST/STM32H7xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+
+   * Component: Keil.ARM Compiler::Compiler:Event Recorder:DAP:1.5.1
+      Source file:   Source/EventRecorder.c
+      Include file:  Include/EventRecorder.h
+      Include file:  Config/EventRecorderConf.h
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:EVR:1.2.0
+      Source file:   Source/retarget_io.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
