@@ -1,0 +1,15 @@
+Rust是一个预编译语言，类似于C++.
+
+Rust也有use std::io的概念（包，作用域）
+
+Rust主要依赖Cargo来管理项目，主要常见有：
+
+cargo new [name] (--vcs==git)   创建一个项目并自动创建git管理工具。输入括弧内的可以屏蔽git
+cargo build
+cargo run
+cargo check
+
+为了确保每个人在任何时候都可以编译成功，有个Cargo.lock文件保存了当前使用的依赖。除非在toml文件内更新dependency、手动执行：.
+cargo update
+
+crate（包、库）遵循x.yy.zz规则。
